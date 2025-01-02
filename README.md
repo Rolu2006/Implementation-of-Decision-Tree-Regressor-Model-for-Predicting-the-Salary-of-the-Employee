@@ -8,11 +8,12 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+```
 1.Import pandas
 2.Import Decision tree classifier
 3.Fit the data in the model
 4.Find the accuracy score
-
+```
 
 ## Program:
 ```
@@ -21,6 +22,7 @@ Program to implement the Decision Tree Regressor Model for Predicting the Salary
 Developed by:somalarajurohini 
 RegisterNumber:24000337  
 */
+```
 ```
 import pandas as pd
 data=pd.read_csv("/Salary.csv")
@@ -45,6 +47,7 @@ y_pred
 r2=metrics.r2_score(y_test,y_pred)
 r2
 dt.predict([[5,6]])
+```
 
 
 
@@ -56,6 +59,7 @@ dt.predict([[5,6]])
 ## Output:
 ![Decision Tree Regressor Model for Predicting the Salary of the Employee](sam.png)
 
+```
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 10 entries, 0 to 9
 Data columns (total 3 columns):
@@ -82,6 +86,7 @@ Name: Salary, dtype: int64
 array([80000., 45000.])
 0.48611111111111116
 array([150000.])
+```
 
 
 
